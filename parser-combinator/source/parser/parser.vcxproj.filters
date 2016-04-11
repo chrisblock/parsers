@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="regex_table_lexer.h">
+      <Filter>lexing</Filter>
+    </ClInclude>
+    <ClInclude Include="regex_table_lexer_entry.h">
+      <Filter>lexing</Filter>
+    </ClInclude>
+    <ClInclude Include="token.h">
+      <Filter>lexing</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="alternative_parser.h">
+      <Filter>parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="sequence_parser.h">
+      <Filter>parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="terminal_symbol_parser.h">
+      <Filter>parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="parser_result.h">
+      <Filter>parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="handle.h" />
+    <ClInclude Include="map_view.h" />
+    <ClInclude Include="token_iterator.h">
+      <Filter>lexing</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>ast</Filter>
+    </ClInclude>
+    <ClInclude Include="kleene_star_parser.h">
+      <Filter>parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="kleene_plus_parser.h">
+      <Filter>parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>lexing</Filter>
+    </ClInclude>
+    <ClInclude Include="builder.h">
+      <Filter>errors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="handle.cpp" />
+    <ClCompile Include="map_view.cpp" />
+    <ClCompile Include="constants.cpp">
+      <Filter>lexing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lexing">
+      <UniqueIdentifier>{5d780144-37c8-455a-9e70-00c074ab36b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parsing">
+      <UniqueIdentifier>{f1e78403-4844-4e15-b3ba-dccb8797b3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ast">
+      <UniqueIdentifier>{db170355-a2b3-4d1e-b35d-3cc5c86f2dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="errors">
+      <UniqueIdentifier>{549a7104-9b29-4d1c-ab18-f3af5fe98aed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

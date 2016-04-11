@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="parser.tests.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="file_tests.cpp" />
+    <ClCompile Include="regex_table_lexer_tests.cpp">
+      <Filter>lexing</Filter>
+    </ClCompile>
+    <ClCompile Include="regex_table_lexer_entry_tests.cpp">
+      <Filter>lexing</Filter>
+    </ClCompile>
+    <ClCompile Include="parser_tests.cpp">
+      <Filter>parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="sequence_parser_tests.cpp">
+      <Filter>parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="terminal_symbol_parser_tests.cpp">
+      <Filter>parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="token_iterator_tests.cpp">
+      <Filter>lexing</Filter>
+    </ClCompile>
+    <ClCompile Include="alternative_parser_tests.cpp">
+      <Filter>parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="kleene_plus_parser_tests.cpp">
+      <Filter>parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="kleene_star_parser_tests.cpp">
+      <Filter>parsing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lexing">
+      <UniqueIdentifier>{5719da42-dd80-4219-88a0-a606f0488dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parsing">
+      <UniqueIdentifier>{c86d9ee4-7f3e-474c-bb59-7ef3ee29e0aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
